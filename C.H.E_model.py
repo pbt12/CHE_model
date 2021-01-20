@@ -64,7 +64,7 @@ print(filtered_sentence)
 score=TextBlob(filtered_sentence)
 print(score.sentiment)
 
-####--------------score is 0.329636 -------------------
+###--------------found sentiment score-------------------
 
 from wordcloud import WordCloud
 word_cloud = WordCloud(width=512,height=512,background_color="white",stopwords=stopwords).generate(filtered_sentence)
